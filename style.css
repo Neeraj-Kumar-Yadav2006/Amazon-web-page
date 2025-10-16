@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;/*for in making same line*/
+    align-items: center;/*top to bottom box come in centre*/
+    justify-content: space-evenly;/*sare element evenly spread ho jayenge jaisi jaise element add karenge left ki taraf shift hoga*/
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image:url("lens.jpg");
+    background-size: cover;
+    height:50px;
+    width: 100px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+/* for box2 styles */
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+   font-size: 1rem;
+   margin-left: 5px;
+}
+.add-icon{
+    display:flex;
+    align-items:center;
+}
+/* for box3 styles*/
+.nav-search{
+    display:flex;
+    justify-content:space-evenly ;
+    background-color:pink;
+    width: 620px;
+    height: 40px;
+    border-radius:5px;
+}
+.nav-search:hover{
+    border:3px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:45px;
+    text-align: center;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    border:none;
+}
+.search-input{
+    width: 100%;
+    font-size:1rem;
+    border:none;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;/* Yah horizontal ko centre me lane ke liye*/
+    align-items: center;/* Yah vertical centre me lane ke liye use*/
+    font-size:1.2rem;/*Yah size badhane ke lioye magnify ka*/
+    background-color: rgb(255, 157, 0);/*color change ke liye*/
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    color: #0f1111;/*magnify ka color black karne ke liye*/
+}
+/*box4 element */
+span{
+    font-size:0.7rem;
+}
+.nav-two{
+    font-size: 0.9rem;
+    font-weight: 700;/*bold me dikhane ke liye*/
+}
+/*box5 element and their */
+.nav-cart i{   /* i isiliye taki hu chahte hai jitne bhi selectors icon ho keval usme change aaye*/
+   font-size: 38px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;/*vertically centre me lane ke liye*/
+
+}
+.panel-option p{
+    display: inline;
+    justify-content: center;
+    margin-left: 15px;
+
+}
+.panel-option{
+    width: 70%;font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;/*bold ke liye*/
+}
+.hero-section{
+    background-image:url("sea.jpg");
+    height: 400px;
+    width:1500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message{
+   /* text-align: end;*/
+   background-color: black;
+   color: white;
+   height: 40px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   font-size: 0.85rem;
+   width: 80%;
+   margin-bottom: 25px;
+}
+.hero-message a{
+    color: #007185;
+}
+/* shop section style*/
+.shop-section{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box1{
+    height: 300px;
+    width:30%;
+    border:2px solid greenyellow;
+    background-image: url("flower.jpg");
+    background-size:cover;
+    padding: 20px 0px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box2{
+    height: 300px;
+    width:30%;
+    border:2px solid greenyellow;
+    background-image: url("bear.jpg");
+    background-size:cover;
+    padding: 20px 0px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box3{
+    height: 300px;
+    width:30%;
+    border:2px solid greenyellow;
+    background-image: url("NKY2.jpg");
+    background-size:cover;
+    padding: 20px 0px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box4{
+    height: 300px;
+    width:30%;
+    border:2px solid greenyellow;
+    padding: 20px 0px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-image{
+    background-size: cover;
+}
+/*style for footer then */
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color:#37475a;
+    height:50px;
+    justify-content:center;
+    align-items: center;
+    display: flex;/*beech me lane ke liye*/
+    color:white;
+    font-size:0.85rem;
+}
+.foot-panel2{
+    background-color:#222f3d;
+    color:white;
+    height:300px;
+    display:flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top:20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top:10px;
+    color: #DDDD;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    border-top: 1px solid white;
+    height:68px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("lens.jpg");
+    background-size: cover;
+    height:50px;
+    width:100px;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: #f3f3f3;
+    height: 100px;
+    /*justify-content: center;
+    align-items: center;
+    display: flex;*/
+}
+.pages{
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
